@@ -1,0 +1,20 @@
+ans=input()
+ans=ans.split()
+h=int(ans[0])
+m=int(ans[1])
+c=int(ans[2])
+d=int(input())
+
+c=c+d
+
+if(c>=60) :
+    m=m+c%60
+    c=c//60
+if(m>=60):                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+    h=h+m%60
+    m=m//60
+if(h>=24):
+    h=h//24
+
+print(h,m,c)
+
